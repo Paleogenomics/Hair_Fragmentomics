@@ -14,8 +14,7 @@ The parser is optimized for downstream analysis of DNA breakpoints surrounding *
 - Extracts 5′ and 3′ termini from samtools pileup files.
 - Identifies **12-bp windows** surrounding each CpG site  
   (5 positions upstream of the C and 5 positions downstream of the G).
-- Modular design: the `generateFragkons` function can be easily modified to change window size.
-- Outputs results to a tab-separated values (TSV) file.
+- Outputs termini counts at each position around the CpG to a tsv file.
 
 ---
 
