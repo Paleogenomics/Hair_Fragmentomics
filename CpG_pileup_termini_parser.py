@@ -1,4 +1,3 @@
-import re
 import csv
 import polars as pl
 
