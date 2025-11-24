@@ -20,8 +20,5 @@ The parser is optimized for downstream analysis of DNA breakpoints surrounding *
 ---
 
 ## Requirements
-The script requires the following Python libraries:
-
-```bash
 polars
 csv  # standard library
